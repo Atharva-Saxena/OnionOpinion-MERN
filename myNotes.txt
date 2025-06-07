@@ -1,0 +1,33 @@
+| Layer      | Tech                                                      |
+| ---------- | --------------------------------------------------------- |
+| Frontend   | React, Redux, Thunk, TailwindCSS                          |
+| Backend    | Node.js, Express.js, MongoDB (Atlas), Mongoose            |
+| Auth       | JWT (JSON Web Tokens), bcrypt                             |
+| Storage    | MongoDB Compass for local dev                             |
+| Deployment | Frontend → Vercel or Netlify, Backend → Render or Railway |
+| API Extras | Leaflet.js + OpenStreetMap for store maps (free)          |
+| Misc       | Postman for testing APIs                                  |
+
+
+
+
+Onion Opinion : a pocket grocer app called "onion opinion" that allows you to buy groceries 
+online. What sets it apart is the added feature of filters based on your 
+budget, storage capacity, calories and convenience. 
+
+Use Case : suppose you are a college student living in a different city and 
+you have to manage your own groceries but you have limited storage or issues
+like no freezer so, you cannot store food with less shelf life or in hot
+temprature so filters ask you initally if your conditional presets like
+veg/nonveg, shelf life/ freezing facilities, needs to be cooked/ ready to
+eat, etc (we will feed this data in json files, sorting them wont be an
+issue)
+
+Agenda : we will use jwt tokens for sign in and authentication too, if user isnt 
+logged in they can still  browse but when they try to add it to their cart, 
+login in required, we'll use jwt tokens for authentication too,
+we'll also add faqs, locations from which we deliver (some map apis for free where 
+users can see the locations stores are located) and a whole about-us page 
+too and we'll add pagination to our item lists too, lets start by putting 
+this website on local host later we'll put up our front end on some 
+hosting web site like aws or something
