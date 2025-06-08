@@ -6,6 +6,7 @@ export default function Navbar() {
       <Link to="/" className="font-bold text-xl">Onion Opinion</Link>
       <div className="space-x-4">
         <Link to="/products" className="hover:underline">Products</Link>
+        <Link to="/locations" className="hover:underline">Locations</Link>
         <Link to="/cart" className="hover:underline">Cart</Link>
         <Link to="/faq" className="hover:underline">FAQ</Link>
         <Link to="/about" className="hover:underline">About Us</Link>
