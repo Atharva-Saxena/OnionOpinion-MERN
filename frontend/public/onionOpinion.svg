@@ -1,0 +1,32 @@
+<svg width="150" height="150" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <linearGradient id="onionGradient" x1="100" y1="0" x2="100" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#a855f7"></stop>
+      <stop offset="1" stop-color="#f3e8ff"></stop>
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Onion Layer -->
+  <path d="M100 10 
+       C120 40, 150 70, 150 120 
+       C150 160, 120 190, 100 190 
+       C80 190, 50 160, 50 120 
+       C50 70, 80 40, 100 10 Z" fill="url(#onionGradient)" stroke="#7e22ce" stroke-width="4"></path>
+
+  <!-- Inner Layer -->
+  <path d="M100 40 
+       C115 60, 135 85, 135 120 
+       C135 145, 115 170, 100 170 
+       C85 170, 65 145, 65 120 
+       C65 85, 85 60, 100 40 Z" fill="#ffffff" opacity="0.5" stroke="#a855f7" stroke-width="2"></path>
+
+  <!-- Onion Tip Sprout -->
+  <path d="M100 0 
+       C98 6, 102 14, 100 20 
+       C105 17, 108 10, 107 4 
+       C107 2, 103 -1, 100 0 Z" fill="#7e22ce"></path>
+
+  <!-- Eyes/Personality Spark -->
+  <circle cx="85" cy="100" r="4" fill="#7e22ce"></circle>
+  <circle cx="115" cy="100" r="4" fill="#7e22ce"></circle>
+</svg>

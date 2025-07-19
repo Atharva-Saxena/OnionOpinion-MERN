@@ -5,7 +5,7 @@ export default function Home() {
         <h1 className="text-4xl font-extrabold text-onion-dark mb-4">Onion Opinion 🧅</h1>
         <p className="text-lg text-gray-700 mb-6">
           Your pocket grocer for students and smart shoppers! Filter groceries by budget, storage, calories, and convenience. 
-          Enjoy a smooth, accessible shopping experience—no matter your kitchen setup.
+          Enjoy a smooth, accessible shopping experience, no matter your kitchen setup.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a

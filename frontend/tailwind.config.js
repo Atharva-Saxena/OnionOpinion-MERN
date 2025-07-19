@@ -6,7 +6,13 @@ export default {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'onion': '#a855f7',        // Purple color for primary actions
+        'onion-dark': '#7e22ce',  // Darker purple for headers/emphasis
+        'onion-light': '#f3e8ff', // Light purple for backgrounds
+      },
+    },
   },
   plugins: [],
 }

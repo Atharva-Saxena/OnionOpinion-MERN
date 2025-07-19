@@ -7,7 +7,7 @@ export default function AboutUs() {
           <span className="font-semibold">Onion Opinion</span> is your pocket grocer, designed especially for students and smart shoppers who want to manage groceries with ease and flexibility.
         </p>
         <p className="text-gray-600 mb-4">
-          Our mission is to make grocery shopping simple, affordable, and tailored to your unique needs—whether you have a tight budget, limited storage, or specific dietary preferences.
+          Our mission is to make grocery shopping simple, affordable, and tailored to your unique needs, whether you have a tight budget, limited storage, or specific dietary preferences.
         </p>
         <ul className="text-left text-gray-700 mb-4 list-disc list-inside">
           <li>🧅 Filter groceries by budget, storage, calories, and convenience</li>
@@ -17,7 +17,7 @@ export default function AboutUs() {
           <li>💡 Find answers in our FAQ or reach out to us anytime</li>
         </ul>
         <p className="text-gray-500">
-          Built with love by students, for students. Inspired by the humble onion—layered, versatile, and essential!
+          Built with love by a student, for students. Inspired by the humble onion layered, versatile, and essential!
         </p>
       </div>
     </div>
