@@ -25,15 +25,18 @@ Onion Opinion is a pocket grocer app that allows you to buy groceries online wit
 | API Extras | Leaflet.js + OpenStreetMap for store maps (free)          |
 | Misc       | Postman for testing APIs                                  |
 
-## Getting Started
-
 ### Prerequisites
 
 - Node.js (v14 or higher)
 - MongoDB (local or Atlas connection)
 - npm or yarn
 
+      Message from me (atharva, dev who made this)
+      Hey stranger! looking through my project ;) , follow the instrcutions below to run my project, locations and few api wont work as my .env are you know, mine, so I'll hold onto my secrets, contact me to get access to mongoDB atlas for your IP and I'll share my connection string with the cluster name and pass
+
 ### Installation
+       
+
 
 1. Clone the repository
    ```
@@ -49,12 +52,16 @@ Onion Opinion is a pocket grocer app that allows you to buy groceries online wit
    cd ..
    ```
 
-3. Set up environment variables
+3. Set up environment variables 
+
+      use your own .env or contact me if you want to use mine
+
+   
    - Create a `.env` file in the root directory with the following variables:
      ```
      PORT=1738
      NODE_ENV=development
-     MONGO_URI=your_mongodb_connection_string
+     MONGO_URI=your_mongodb_connection_string 
      JWT_SECRET=your_jwt_secret
      ```
 
@@ -89,9 +96,7 @@ This will start both the backend server and the frontend development server conc
 - `npm run data:import` - Import sample data
 - `npm run data:destroy` - Clear all data from the database
 
-## License
 
-This project is licensed under the MIT License.
 
 ## Acknowledgements
 

@@ -16,13 +16,12 @@ connectDB();
 
 const importData = async () => {
   try {
-    // Clear existing data
+    
     await Order.deleteMany();
     await Product.deleteMany();
     await User.deleteMany();
     await Location.deleteMany();
 
-    // Import users
     const createdUsers = await User.insertMany(users);
     const adminUser = createdUsers[0]._id;
 
@@ -31,7 +30,6 @@ const importData = async () => {
       return { ...product, user: adminUser };
     });
 
-    // Import products and locations
     await Product.insertMany(sampleProducts);
     await Location.insertMany(locations);
 

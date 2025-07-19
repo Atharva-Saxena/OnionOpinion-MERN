@@ -4,16 +4,16 @@ import { useSelector } from 'react-redux';
 export default function ProtectedRoute({ children }) {
   const { isAuthenticated, loading } = useSelector(state => state.auth);
   
-  // If still loading auth state, show nothing (or could add a spinner)
+  // adding a spinner later
   if (loading) {
     return <div className="flex justify-center items-center h-screen">Loading...</div>;
   }
   
-  // If not authenticated, redirect to login
+  // redirect to login
   if (!isAuthenticated) {
     return <Navigate to="/login" replace />;
   }
   
-  // If authenticated, render the children components
+  // authenticated , render children
   return children;
 }
