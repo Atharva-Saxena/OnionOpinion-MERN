@@ -13,17 +13,6 @@ Onion Opinion is a pocket grocer app that allows you to buy groceries online wit
 - Shopping cart functionality
 - Responsive design for all devices
 
-## Tech Stack
-
-| Layer      | Tech                                                      |
-| ---------- | --------------------------------------------------------- |
-| Frontend   | React, Redux, Thunk, TailwindCSS                          |
-| Backend    | Node.js, Express.js, MongoDB (Atlas), Mongoose            |
-| Auth       | JWT (JSON Web Tokens), bcrypt                             |
-| Storage    | MongoDB Compass for local dev                             |
-| Deployment | Frontend → Vercel or Netlify, Backend → Render or Railway |
-| API Extras | Leaflet.js + OpenStreetMap for store maps (free)          |
-| Misc       | Postman for testing APIs                                  |
 
 ### Prerequisites
 
