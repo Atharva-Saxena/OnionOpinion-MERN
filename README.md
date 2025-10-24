@@ -40,7 +40,7 @@ Onion Opinion is a pocket grocer app that allows you to buy groceries online wit
 
 1. Clone the repository
    ```
-   git clone https://github.com/yourusername/onion-opinion.git
+   git clone https://github.com/Atharva-Saxena/onion-opinion.git
    cd onion-opinion
    ```
 
@@ -96,13 +96,3 @@ This will start both the backend server and the frontend development server conc
 - `npm run data:import` - Import sample data
 - `npm run data:destroy` - Clear all data from the database
 
-
-
-## Acknowledgements
-
-- [React](https://reactjs.org/)
-- [Redux](https://redux.js.org/)
-- [Express](https://expressjs.com/)
-- [MongoDB](https://www.mongodb.com/)
-- [TailwindCSS](https://tailwindcss.com/)
-- [Leaflet](https://leafletjs.com/)
